@@ -211,6 +211,30 @@ namespace Calculators
             double result = num1 * (1 - Math.Exp(-(num2/num1)*num3));
             return Math.Round(result, 2);
         }
+
+        public double FailureIntensityLog(double num1, double num2, double num3)
+        {
+            double result = num1 * Math.Exp(-(num2 * num3));
+            return Math.Round(result, 2);
+        }
+
+        public double AverageFailureLog(double num1, double num2, double num3)
+        {
+            double result = (1/num2) * Math.Log(( num1 * num2 * num3)+1);
+            return Math.Round(result, 2);
+        }
+
+        public double DefectDensity(double num1, double num2)
+        {
+            double result = num1 / num2;
+            return Math.Round(result, 2);
+        }
+
+        public double UpdatedKSSI(double num1, double num2, double num3,double num4)
+        {
+            double result = num1 + num2 - num3 - num4;
+            return Math.Round(result, 2);
+        }
     }
 
 }
