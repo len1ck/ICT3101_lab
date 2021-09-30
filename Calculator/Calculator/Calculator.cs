@@ -9,34 +9,175 @@ namespace Calculators
     public class Calculator
     {
         public Calculator() { }
-        public double DoOperation(double num1, double num2, string op)
+        public double DoOperation(string op)
         {
             double result = double.NaN; // Default value
                                         // Use a switch statement to do the math.
+         
             switch (op)
             {
                 case "a":
-                    result = Add(num1, num2);
-                    break;
+                    // Declare variables and set to empty.
+                    string numInput1 = "";
+                    string numInput2 = "";
+                    // Ask the user to type the first number.
+                    Console.Write("Type a number, and then press Enter: ");
+                    numInput1 = Console.ReadLine();
+                    double cleanNum1 = 0;
+                    while (!double.TryParse(numInput1, out cleanNum1))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput1 = Console.ReadLine();
+                    }
+                    // Ask the user to type the second number.
+                    Console.Write("Type another number, and then press Enter: ");
+                    numInput2 = Console.ReadLine();
+                    double cleanNum2 = 0;
+                    while (!double.TryParse(numInput2, out cleanNum2))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput2 = Console.ReadLine();
+                    }
+                    result = Add(cleanNum1, cleanNum2);
+                    return result;
                 case "s":
-                    result = Subtract(num1, num2);
-                    break;
+                    // Declare variables and set to empty.
+                    numInput1 = "";
+                    numInput2 = "";
+                    // Ask the user to type the first number.
+                    Console.Write("Type a number, and then press Enter: ");
+                    numInput1 = Console.ReadLine();
+                    cleanNum1 = 0;
+                    while (!double.TryParse(numInput1, out cleanNum1))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput1 = Console.ReadLine();
+                    }
+                    // Ask the user to type the second number.
+                    Console.Write("Type another number, and then press Enter: ");
+                    numInput2 = Console.ReadLine();
+                    cleanNum2 = 0;
+                    while (!double.TryParse(numInput2, out cleanNum2))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput2 = Console.ReadLine();
+                    }
+                    result = Subtract(cleanNum1, cleanNum2);
+                    return result;
                 case "m":
-                    result = Multiply(num1, num2);
-                    break;
+                    // Declare variables and set to empty.
+                    numInput1 = "";
+                    numInput2 = "";
+                    // Ask the user to type the first number.
+                    Console.Write("Type a number, and then press Enter: ");
+                    numInput1 = Console.ReadLine();
+                    cleanNum1 = 0;
+                    while (!double.TryParse(numInput1, out cleanNum1))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput1 = Console.ReadLine();
+                    }
+                    // Ask the user to type the second number.
+                    Console.Write("Type another number, and then press Enter: ");
+                    numInput2 = Console.ReadLine();
+                    cleanNum2 = 0;
+                    while (!double.TryParse(numInput2, out cleanNum2))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput2 = Console.ReadLine();
+                    }
+                    result = Multiply(cleanNum1, cleanNum2);
+                    return result;
                 case "d":
+                    // Declare variables and set to empty.
+                    numInput1 = "";
+                    numInput2 = "";
+                    // Ask the user to type the first number.
+                    Console.Write("Type a number, and then press Enter: ");
+                    numInput1 = Console.ReadLine();
+                    cleanNum1 = 0;
+                    while (!double.TryParse(numInput1, out cleanNum1))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput1 = Console.ReadLine();
+                    }
+                    // Ask the user to type the second number.
+                    Console.Write("Type another number, and then press Enter: ");
+                    numInput2 = Console.ReadLine();
+                    cleanNum2 = 0;
+                    while (!double.TryParse(numInput2, out cleanNum2))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput2 = Console.ReadLine();
+                    }
                     // Ask the user to enter a non-zero divisor.
-                    result = Divide(num1, num2);
-                    break;
+                    result = Divide(cleanNum1, cleanNum2);
+                    return result;
                 case "f":
-                    // Ask the user to enter a non-zero divisor.
-                    result = Factorial(num1);
-                    break;
+                    // Declare variables and set to empty.
+                    numInput1 = "";
+                    // Ask the user to type the first number.
+                    Console.Write("Type a number, and then press Enter: ");
+                    numInput1 = Console.ReadLine();
+                    cleanNum1 = 0;
+                    while (!double.TryParse(numInput1, out cleanNum1))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput1 = Console.ReadLine();
+                    }
+                    result = Factorial(cleanNum1);
+                    return result;
+                case "dd":
+                    // Declare variables and set to empty.
+                    numInput1 = "";
+                    numInput2 = "";
+                    string numInput3 = "";
+                    string numInput4 = "";
+                    // Ask the user to type the first number.
+                    Console.Write("Type a number for the initial failure intensity, and then press Enter: ");
+                    numInput1 = Console.ReadLine();
+                    cleanNum1 = 0;
+                    while (!double.TryParse(numInput1, out cleanNum1))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput1 = Console.ReadLine();
+                    }
+                    // Ask the user to type the second number.
+                    Console.Write("Type a number for the failure intensity decay parameter, and then press Enter: ");
+                    numInput2 = Console.ReadLine();
+                    cleanNum2 = 0;
+                    while (!double.TryParse(numInput2, out cleanNum2))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput2 = Console.ReadLine();
+                    }
+                    // Ask the user to type the third number.
+                    Console.Write("Type a number for the average number of failures at time T, and then press Enter: ");
+                    numInput3 = Console.ReadLine();
+                    double cleanNum3 = 0;
+                    while (!double.TryParse(numInput3, out cleanNum3))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput3 = Console.ReadLine();
+                    }
+                    // Ask the user to type the forth number.
+                    Console.Write("Type a number for the given time, and then press Enter: ");
+                    numInput4 = Console.ReadLine();
+                    double cleanNum4 = 0;
+                    while (!double.TryParse(numInput4, out cleanNum4))
+                    {
+                        Console.Write("This is not valid input. Please enter an integer value: ");
+                        numInput4 = Console.ReadLine();
+                    }
+                    result = FailureIntensityLog(cleanNum1, cleanNum2, cleanNum3);
+                    double result2 = AverageFailureLog(cleanNum1, cleanNum2, cleanNum4);
+                    Console.WriteLine("Your result for Logarithmic Failure Intensity: {0:0.##}\n", result);
+                    Console.WriteLine("Your result for Average Failure Rate: {0:0.##}\n", result2);
+                    return int.MaxValue -1;
                 // Return text for an incorrect option entry.
                 default:
-                    break;
+                    return result;
             }
-            return result;
         }
         public double Add(double num1, double num2)
         {

@@ -107,56 +107,11 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 12
- testRunner.When("I have entered \"50\" as the initial failure intensity and \"0.01\" as the failure in" +
-                        "tensity decay parameter and \"60\" as the average number of failures at time T int" +
-                        "o the calculator and press current logarithmic failure intensity", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When(@"I have entered ""50"" as the initial failure intensity and ""0.01"" as the failure intensity decay parameter and ""60"" as the average number of failures at time T into the calculator and press current logarithmic failure intensity and ""5"" as the given time into the calculator and press logarithmic average number of failures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 13
- testRunner.Then("the logarithmic failure intensity result should be \"27.44\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Calculate Logarithmic Average Number of Expected Failures")]
-        [NUnit.Framework.CategoryAttribute("logReliability")]
-        public virtual void CalculateLogarithmicAverageNumberOfExpectedFailures()
-        {
-            string[] tagsOfScenario = new string[] {
-                    "logReliability"};
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate Logarithmic Average Number of Expected Failures", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 16
-this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            bool isScenarioIgnored = default(bool);
-            bool isFeatureIgnored = default(bool);
-            if ((tagsOfScenario != null))
-            {
-                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((this._featureTags != null))
-            {
-                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((isScenarioIgnored || isFeatureIgnored))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 17
- testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 18
- testRunner.When("I have entered \"50\" as the initial failure intensity and \"0.01\" as the failure in" +
-                        "tensity decay parameter and \"5\" as the given time into the calculator and press " +
-                        "logarithmic average number of failures", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 19
- testRunner.Then("the logarithmic average number of failure result should be \"125.28\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the logarithmic failure intensity result should be \"27.44\" and the logarithmic av" +
+                        "erage number of failure result should be \"125.28\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
