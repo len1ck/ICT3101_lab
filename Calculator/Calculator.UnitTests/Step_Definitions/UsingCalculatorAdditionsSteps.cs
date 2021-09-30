@@ -8,22 +8,25 @@ namespace Calculators.UnitTests.Step_Definitions
     public class UsingCalculatorAdditionsSteps
     {
         private double _result;
-        private readonly CalculatorData calculatorData;
-        public UsingCalculatorAdditionsSteps(CalculatorData calculatorData) 
+        //private readonly CalculatorData calculatorData;
+        private Calculator _calculator;
+        public UsingCalculatorAdditionsSteps(Calculator calc) 
         {
-            this.calculatorData = calculatorData;
+
+            //this.calculatorData = calculatorData;
+            this._calculator = calc;
         }
 
         [Given(@"I have a calculator")]
         public void GivenIHaveACalculator()
         {
-            calculatorData._calculator = new Calculator();
+            _calculator = new Calculator();
         }
         
         [When(@"I have entered ""(.*)"" and ""(.*)"" into the calculator and press add")]
         public void WhenIHaveEnteredAndIntoTheCalculatorAndPressAdd(int p0, int p1)
         {
-            _result = calculatorData._calculator.Add2(p0, p1);
+            _result = _calculator.Add2(p0, p1);
         }
         
         [Then(@"the result should be ""(.*)""")]
@@ -33,8 +36,8 @@ namespace Calculators.UnitTests.Step_Definitions
         }
     }
 
-    public class CalculatorData // the POCO for sharing person data
-    {
-        public Calculator _calculator;
-    }
+    //public class CalculatorData // the POCO for sharing person data
+    //{
+    //    public Calculator _calculator;
+    //}
 }

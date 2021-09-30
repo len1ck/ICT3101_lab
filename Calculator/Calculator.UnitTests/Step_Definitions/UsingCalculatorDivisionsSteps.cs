@@ -9,15 +9,22 @@ namespace Calculators.UnitTests.Step_Definitions
     public class UsingCalculatorDivisionsSteps
     {
         private double _result;
-        private readonly CalculatorData calculatorData;
-        public UsingCalculatorDivisionsSteps(CalculatorData calculatorData)
+        //private readonly CalculatorData calculatorData;
+        //Context Injection for SpecFLow:
+        private Calculator _calculator;
+        public UsingCalculatorDivisionsSteps(Calculator calc)
         {
-            this.calculatorData = calculatorData;
+            this._calculator = calc;
         }
+        //--------------------------------
+        //public UsingCalculatorDivisionsSteps(CalculatorData calculatorData)
+        //{
+        //    this.calculatorData = calculatorData;
+        //}
         [When(@"I have entered ""(.*)"" and ""(.*)"" into the calculator and press divide")]
         public void WhenIHaveEnteredAndIntoTheCalculatorAndPressDivide(int p0, int p1)
         {
-            _result = calculatorData._calculator.Divide2(p0, p1);
+            _result = _calculator.Divide2(p0, p1);
         }
         
         [Then(@"the division result should be ""(.*)""")]

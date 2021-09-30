@@ -183,6 +183,34 @@ namespace Calculators
             }
         }
         // Question 18 End
+
+        public double MTBF(double num1, double num2)
+        {
+            double result = num1 + num2;
+            return result;
+        }
+        public double MTTR(double num1, double num2)
+        {
+            double result = num1 - num2;
+            return result;
+        }
+        public double Availability(double num1, double num2)
+        {
+            double result = num1 / num2;
+            return Math.Round(result, 2);
+        }
+
+        public double FailureIntensity(double num1, double num2, double num3)
+        {
+            double result = num1*(1-(num2/num3));
+            return Math.Round(result, 2);
+        }
+
+        public double AverageFailure(double num1, double num2, double num3)
+        {
+            double result = num1 * (1 - Math.Exp(-(num2/num1)*num3));
+            return Math.Round(result, 2);
+        }
     }
 
 }
