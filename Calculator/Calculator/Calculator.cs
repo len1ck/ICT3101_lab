@@ -239,7 +239,7 @@ namespace Calculators
         {
             if (num1 < 0)
             {
-                throw new System.ArgumentException("less than zerosss ssssss");
+                throw new System.ArgumentException("less than zerosss ssssssssss");
             }
             if (num1 == 0)
             {
