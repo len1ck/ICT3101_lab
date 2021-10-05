@@ -42,7 +42,7 @@ namespace Calculators
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine("Oh no! An exception occurred trying math.\n - Details: " + e.Message);
+                        Console.WriteLine("Oh no! An exception occurred trying math .\n - Details: " + e.Message);
                     }
                     Console.WriteLine("------------------------\n");
                     // Wait for the user to respond before closing.
