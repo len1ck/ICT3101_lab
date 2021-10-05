@@ -1,89 +1,15 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.7.2": {
-      "BoDi/1.5.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/BoDi.dll": {}
-        },
-        "runtime": {
-          "lib/net45/BoDi.dll": {}
-        },
-        "build": {
-          "build/_._": {}
-        }
-      },
-      "Cucumber.Messages/6.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Google.Protobuf": "3.7.0"
-        },
-        "compile": {
-          "lib/net45/Cucumber.Messages.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Cucumber.Messages.dll": {}
-        }
-      },
-      "Gherkin/19.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Gherkin.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Gherkin.dll": {}
-        }
-      },
-      "Google.Protobuf/3.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Google.Protobuf.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Google.Protobuf.dll": {}
-        }
-      },
-      "Microsoft.CodeCoverage/16.11.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
-        },
-        "build": {
-          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
-          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
-        }
-      },
+    ".NETFramework,Version=v3.1": {
       "Microsoft.NET.Test.Sdk/16.11.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.CodeCoverage": "16.11.0"
-        },
-        "compile": {
-          "lib/net45/_._": {}
-        },
-        "runtime": {
-          "lib/net45/_._": {}
-        },
-        "build": {
-          "build/net45/Microsoft.NET.Test.Sdk.props": {},
-          "build/net45/Microsoft.NET.Test.Sdk.targets": {}
-        },
         "buildMultiTargeting": {
           "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
         }
       },
       "NUnit/3.13.2": {
         "type": "package",
-        "compile": {
-          "lib/net45/nunit.framework.dll": {}
-        },
-        "runtime": {
-          "lib/net45/nunit.framework.dll": {}
-        },
         "build": {
           "build/NUnit.props": {}
         }
@@ -118,52 +44,16 @@
         "type": "package"
       },
       "NUnit3TestAdapter/4.0.0": {
-        "type": "package",
-        "build": {
-          "build/net35/NUnit3TestAdapter.props": {}
-        }
+        "type": "package"
       },
       "SpecFlow/3.9.22": {
         "type": "package",
-        "dependencies": {
-          "BoDi": "1.5.0",
-          "Cucumber.Messages": "[6.0.1, 7.0.0)",
-          "Gherkin": "19.0.3",
-          "SpecFlow.Internal.Json": "1.0.8",
-          "System.ValueTuple": "4.4.0"
-        },
-        "compile": {
-          "lib/net461/TechTalk.SpecFlow.dll": {}
-        },
-        "runtime": {
-          "lib/net461/TechTalk.SpecFlow.dll": {}
-        },
         "build": {
           "build/SpecFlow.targets": {}
         }
       },
-      "SpecFlow.Internal.Json/1.0.8": {
-        "type": "package",
-        "compile": {
-          "lib/net45/SpecFlow.Internal.Json.dll": {}
-        },
-        "runtime": {
-          "lib/net45/SpecFlow.Internal.Json.dll": {}
-        }
-      },
       "SpecFlow.NUnit/3.9.22": {
         "type": "package",
-        "dependencies": {
-          "NUnit": "3.13.1",
-          "SpecFlow": "[3.9.22]",
-          "SpecFlow.Tools.MsBuild.Generation": "[3.9.22]"
-        },
-        "compile": {
-          "lib/net461/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
-        },
-        "runtime": {
-          "lib/net461/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
-        },
         "build": {
           "build/SpecFlow.NUnit.props": {},
           "build/SpecFlow.NUnit.targets": {}
@@ -190,18 +80,6 @@
           "buildMultiTargeting/SpecFlow.Tools.MsBuild.Generation.props": {}
         }
       },
-      "System.ValueTuple/4.4.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "mscorlib"
-        ],
-        "compile": {
-          "ref/net47/System.ValueTuple.dll": {}
-        },
-        "runtime": {
-          "lib/net47/System.ValueTuple.dll": {}
-        }
-      },
       "Calculator/1.0.0": {
         "type": "project",
         "compile": {
@@ -214,137 +92,6 @@
     }
   },
   "libraries": {
-    "BoDi/1.5.0": {
-      "sha512": "CzIPzdIAFSd2zuLxI+0K9s48Qv3HQDbWiApn9h96j284rHs2bSPrn/PMca3mi4q3xLSEqOp+GUJ6+mXDD9prKg==",
-      "type": "package",
-      "path": "bodi/1.5.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bodi.1.5.0.nupkg.sha512",
-        "bodi.nuspec",
-        "build/_._",
-        "content/_._",
-        "lib/net45/BoDi.dll",
-        "lib/net45/BoDi.pdb",
-        "lib/netstandard2.0/BoDi.dll",
-        "lib/netstandard2.0/BoDi.pdb",
-        "tools/_._"
-      ]
-    },
-    "Cucumber.Messages/6.0.1": {
-      "sha512": "R/2XAU6Zwdnlgga/YLYxwbKf4ai0JYyeX25l85t0nNgagR2aP8hnqrLtJjgswuXVa2WlQdjXUfJqUX8YTjzlXw==",
-      "type": "package",
-      "path": "cucumber.messages/6.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "cucumber.messages.6.0.1.nupkg.sha512",
-        "cucumber.messages.nuspec",
-        "lib/net45/Cucumber.Messages.dll",
-        "lib/netstandard2.0/Cucumber.Messages.dll"
-      ]
-    },
-    "Gherkin/19.0.3": {
-      "sha512": "kq9feqMojMj9aABrHb/ABEPaH2Y4dSclseSahAru6qxCeqVQNLLTgw/6vZMauzI1yBUL2fz03ub5yEd5btLfvg==",
-      "type": "package",
-      "path": "gherkin/19.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "cucumber-mark-green-128.png",
-        "gherkin.19.0.3.nupkg.sha512",
-        "gherkin.nuspec",
-        "lib/net45/Gherkin.dll",
-        "lib/net45/Gherkin.xml",
-        "lib/netstandard2.0/Gherkin.dll",
-        "lib/netstandard2.0/Gherkin.xml"
-      ]
-    },
-    "Google.Protobuf/3.7.0": {
-      "sha512": "OvssyqQTrpJgdH4fjztsCV9AhUo9jgGpDbZ5XAAqC+X6MIUsifHk8Woeom1HXlHdqo/XebiEMpYySE9AxybJ9g==",
-      "type": "package",
-      "path": "google.protobuf/3.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "google.protobuf.3.7.0.nupkg.sha512",
-        "google.protobuf.nuspec",
-        "lib/net45/Google.Protobuf.dll",
-        "lib/net45/Google.Protobuf.pdb",
-        "lib/net45/Google.Protobuf.xml",
-        "lib/netstandard1.0/Google.Protobuf.dll",
-        "lib/netstandard1.0/Google.Protobuf.pdb",
-        "lib/netstandard1.0/Google.Protobuf.xml"
-      ]
-    },
-    "Microsoft.CodeCoverage/16.11.0": {
-      "sha512": "wf6lpAeCqP0KFfbDVtfL50lr7jY1gq0+0oSphyksfLOEygMDXqnaxHK5LPFtMEhYSEtgXdNyXNnEddOqQQUdlQ==",
-      "type": "package",
-      "path": "microsoft.codecoverage/16.11.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE_NET.txt",
-        "ThirdPartyNotices.txt",
-        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
-        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
-        "build/netstandard1.0/CodeCoverage/VanguardInstrumentationProfiler_x86.config",
-        "build/netstandard1.0/CodeCoverage/amd64/CodeCoverage.exe",
-        "build/netstandard1.0/CodeCoverage/amd64/VanguardInstrumentationProfiler_x64.config",
-        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
-        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
-        "build/netstandard1.0/CodeCoverage/amd64/msvcdis140.dll",
-        "build/netstandard1.0/CodeCoverage/amd64/msvcp140.dll",
-        "build/netstandard1.0/CodeCoverage/amd64/msvcp140_atomic_wait.dll",
-        "build/netstandard1.0/CodeCoverage/amd64/vcruntime140.dll",
-        "build/netstandard1.0/CodeCoverage/amd64/vcruntime140_1.dll",
-        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
-        "build/netstandard1.0/CodeCoverage/coreclr/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "build/netstandard1.0/CodeCoverage/covrun32.dll",
-        "build/netstandard1.0/CodeCoverage/msdia140.dll",
-        "build/netstandard1.0/CodeCoverage/msvcdis140.dll",
-        "build/netstandard1.0/CodeCoverage/msvcp140.dll",
-        "build/netstandard1.0/CodeCoverage/msvcp140_atomic_wait.dll",
-        "build/netstandard1.0/CodeCoverage/vcruntime140.dll",
-        "build/netstandard1.0/InstrumentationEngine/alpine/x64/ProductionBreakpoints_x64.config",
-        "build/netstandard1.0/InstrumentationEngine/alpine/x64/libCoverageInstrumentationMethod.so",
-        "build/netstandard1.0/InstrumentationEngine/alpine/x64/libInstrumentationEngine.so",
-        "build/netstandard1.0/InstrumentationEngine/ubuntu/x64/ProductionBreakpoints_x64.config",
-        "build/netstandard1.0/InstrumentationEngine/ubuntu/x64/libCoverageInstrumentationMethod.so",
-        "build/netstandard1.0/InstrumentationEngine/ubuntu/x64/libInstrumentationEngine.so",
-        "build/netstandard1.0/InstrumentationEngine/x64/MicrosoftInstrumentationEngine_x64.dll",
-        "build/netstandard1.0/InstrumentationEngine/x86/MicrosoftInstrumentationEngine_x86.dll",
-        "build/netstandard1.0/Microsoft.CodeCoverage.props",
-        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
-        "build/netstandard1.0/Microsoft.VisualStudio.Coverage.Core.dll",
-        "build/netstandard1.0/Microsoft.VisualStudio.Coverage.Instrumentation.dll",
-        "build/netstandard1.0/Microsoft.VisualStudio.Coverage.Interprocess.dll",
-        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
-        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
-        "build/netstandard1.0/Mono.Cecil.dll",
-        "build/netstandard1.0/ThirdPartyNotices.txt",
-        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
-        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "microsoft.codecoverage.16.11.0.nupkg.sha512",
-        "microsoft.codecoverage.nuspec"
-      ]
-    },
     "Microsoft.NET.Test.Sdk/16.11.0": {
       "sha512": "f4mbG1SUSkNWF5p7B3Y8ZxMsvKhxCmpZhdl+w6tMtLSUGE7Izi1syU6TkmKOvB2BV66pdbENConFAISOix4ohQ==",
       "type": "package",
@@ -585,20 +332,6 @@
         "lib/netstandard2.0/TechTalk.SpecFlow.xml",
         "specflow.3.9.22.nupkg.sha512",
         "specflow.nuspec"
-      ]
-    },
-    "SpecFlow.Internal.Json/1.0.8": {
-      "sha512": "lVCC/Rie7N5rFoc7YxPS0nneLfsWSTIMMlkndwxhaD8MxBp3Bsv1HeiVjVwXCjWaQeoqZcvIy52fF5Xit00ZLw==",
-      "type": "package",
-      "path": "specflow.internal.json/1.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "lib/net45/SpecFlow.Internal.Json.dll",
-        "lib/netstandard2.0/SpecFlow.Internal.Json.dll",
-        "specflow.internal.json.1.0.8.nupkg.sha512",
-        "specflow.internal.json.nuspec"
       ]
     },
     "SpecFlow.NUnit/3.9.22": {
@@ -860,51 +593,6 @@
         "tasks/netcoreapp2.1/TechTalk.SpecFlow.dll"
       ]
     },
-    "System.ValueTuple/4.4.0": {
-      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
-      "type": "package",
-      "path": "system.valuetuple/4.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.ValueTuple.dll",
-        "lib/net461/System.ValueTuple.xml",
-        "lib/net47/System.ValueTuple.dll",
-        "lib/net47/System.ValueTuple.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.0/System.ValueTuple.dll",
-        "lib/netstandard1.0/System.ValueTuple.xml",
-        "lib/netstandard2.0/_._",
-        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.ValueTuple.dll",
-        "ref/net461/System.ValueTuple.xml",
-        "ref/net47/System.ValueTuple.dll",
-        "ref/net47/System.ValueTuple.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard2.0/_._",
-        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.valuetuple.4.4.0.nupkg.sha512",
-        "system.valuetuple.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "Calculator/1.0.0": {
       "type": "project",
       "path": "../Calculator/Calculator.csproj",
@@ -912,7 +600,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.7.2": [
+    ".NETFramework,Version=v3.1": [
       "Calculator >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
@@ -940,15 +628,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net472"
+        "net31"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net472": {
-          "targetAlias": "net472",
+        "net31": {
+          "targetAlias": "net31",
           "projectReferences": {
             "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator\\Calculator.csproj": {
               "projectPath": "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator\\Calculator.csproj"
@@ -963,8 +651,8 @@
       }
     },
     "frameworks": {
-      "net472": {
-        "targetAlias": "net472",
+      "net31": {
+        "targetAlias": "net31",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
