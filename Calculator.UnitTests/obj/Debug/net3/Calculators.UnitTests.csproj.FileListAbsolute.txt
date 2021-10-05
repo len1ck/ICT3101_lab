@@ -1,0 +1,5 @@
+D:\Scool\GitHub\ICT3101_Lab1\Calculator.UnitTests\obj\Debug\net3\Calculators.UnitTests.csproj.AssemblyReference.cache
+D:\Scool\GitHub\ICT3101_Lab1\Calculator.UnitTests\obj\Debug\net3\Calculators.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scool\GitHub\ICT3101_Lab1\Calculator.UnitTests\obj\Debug\net3\Calculators.UnitTests.AssemblyInfoInputs.cache
+D:\Scool\GitHub\ICT3101_Lab1\Calculator.UnitTests\obj\Debug\net3\Calculators.UnitTests.AssemblyInfo.cs
+D:\Scool\GitHub\ICT3101_Lab1\Calculator.UnitTests\obj\Debug\net3\Calculators.UnitTests.csproj.CoreCompileInputs.cache

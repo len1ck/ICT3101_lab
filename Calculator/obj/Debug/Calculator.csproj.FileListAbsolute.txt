@@ -64,13 +64,13 @@ C:\Users\nicks\Documents\GitHub\ICT3101_lab\Calculator\Calculator\obj\Debug\Calc
 C:\Users\nicks\Documents\GitHub\ICT3101_lab\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
 C:\Users\nicks\Documents\GitHub\ICT3101_lab\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\nicks\Documents\GitHub\ICT3101_lab\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\NUnit3.TestAdapter.dll
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\NUnit3.TestAdapter.pdb
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\nunit.engine.dll
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\nunit.engine.api.dll
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\nunit.engine.core.dll
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\testcentric.engine.metadata.dll
-D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\Calculator.exe.config
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\Calculator.exe
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\Calculator.pdb

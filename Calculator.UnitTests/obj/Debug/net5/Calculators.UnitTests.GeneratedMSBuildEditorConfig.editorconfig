@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Calculators.UnitTests
+build_property.ProjectDir = D:\Scool\GitHub\ICT3101_Lab1\Calculator.UnitTests\
