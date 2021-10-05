@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{8475A84B-3532-49F2-B6AD-D4DAA1EEF56C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculators.UnitTests", "Calculator.UnitTests\Calculators.UnitTests.csproj", "{56465577-AC4D-46D1-BB81-4C6B2A628311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculators.UnitTests", "Calculator.UnitTests\Calculators.UnitTests.csproj", "{56465577-AC4D-46D1-BB81-4C6B2A628311}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED1A2D98-F455-42E7-928A-A1816B27F91A}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
