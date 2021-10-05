@@ -1,6 +1,6 @@
 language: csharp
 solution: Calculator.sln
-dotnet: 5
+dotnet: 3
 mono: none
 
 script:

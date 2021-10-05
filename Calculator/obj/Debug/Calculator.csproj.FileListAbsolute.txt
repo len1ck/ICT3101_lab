@@ -91,7 +91,6 @@ D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\System.ValueTuple.xml
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\TechTalk.SpecFlow.pdb
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\TechTalk.SpecFlow.xml
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
-D:\Scool\GitHub\ICT3101_Lab1\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\obj\Debug\Calculator.exe.config
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\Scool\GitHub\ICT3101_Lab1\Calculator\obj\Debug\Calculator.csproj.CopyComplete
