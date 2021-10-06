@@ -1,3 +1,4 @@
+using ICT3101_Calculator;
 using NUnit.Framework;
 using System;
 
@@ -224,6 +225,16 @@ namespace Calculators.UnitTests
             // Act
             // Assert
             Assert.That(() => _calculator.FactorialCounter_FunctionB(4, 5), Throws.ArgumentException);
+        }
+
+        [Test]
+        public void FileReaderFunction_WhenGiven1_returnIndexOneofString()
+        {
+            FileReader reader = new FileReader();
+            // Act
+            double result = _calculator.GenMagicNum(1,reader);
+            // Assert
+            Assert.That(result, Is.EqualTo(30));
         }
     }
 }
