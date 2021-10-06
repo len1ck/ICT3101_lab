@@ -1,35 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator.UnitTests\\Calculators.UnitTests.csproj": {}
+    "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator.UnitTests\\Calculators.UnitTests.csproj": {}
   },
   "projects": {
-    "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator.UnitTests\\Calculators.UnitTests.csproj": {
+    "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator.UnitTests\\Calculators.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator.UnitTests\\Calculators.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator.UnitTests\\Calculators.UnitTests.csproj",
         "projectName": "Calculators.UnitTests",
-        "projectPath": "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator.UnitTests\\Calculators.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\Nick\\.nuget\\packages\\",
-        "outputPath": "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator.UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator.UnitTests\\Calculators.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\nicks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net50"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5",
+          "net50": {
             "projectReferences": {
-              "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator\\Calculator.csproj": {
-                "projectPath": "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator\\Calculator.csproj"
+              "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator\\Calculator.csproj": {
+                "projectPath": "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator\\Calculator.csproj"
               }
             }
           }
@@ -41,8 +40,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5",
+        "net50": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -73,30 +71,16 @@
               "version": "[3.9.22, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator\\Calculator.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "D:\\Scool\\GitHub\\ICT3101_Lab1\\Calculator\\Calculator.csproj"
+        "projectPath": "C:\\Users\\nicks\\Documents\\GitHub\\ICT3101_lab\\Calculator\\Calculator.csproj"
       },
       "frameworks": {
         "net472": {}
