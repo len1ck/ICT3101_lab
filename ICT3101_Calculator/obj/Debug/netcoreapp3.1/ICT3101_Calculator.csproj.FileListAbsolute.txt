@@ -10,3 +10,4 @@ C:\Users\nicks\Documents\GitHub\ICT3101_lab\ICT3101_Calculator\obj\Debug\netcore
 C:\Users\nicks\Documents\GitHub\ICT3101_lab\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.dll
 C:\Users\nicks\Documents\GitHub\ICT3101_lab\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.pdb
 C:\Users\nicks\Documents\GitHub\ICT3101_lab\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.genruntimeconfig.cache
+C:\Users\nicks\Documents\GitHub\ICT3101_lab\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.csprojAssemblyReference.cache
